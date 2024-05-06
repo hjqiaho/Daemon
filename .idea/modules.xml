@@ -4,7 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Daemon.iml" filepath="$PROJECT_DIR$/.idea/modules/Daemon.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Daemon.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Daemon.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Daemon.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Daemon.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Daemon.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Daemon.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Daemon.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Daemon.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Daemon.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Daemon.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Daemon.library.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Daemon.library.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Daemon.library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Daemon.library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Daemon.library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Daemon.library.unitTest.iml" />
     </modules>
   </component>
 </project>

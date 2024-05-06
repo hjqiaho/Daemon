@@ -217,9 +217,10 @@
     <instrumentation
         android:name="com.daemon.DInstrumentation"
         android:targetPackage="com.daemonLibrary.demo"
-        android:targetProcesses="com.daemonLibrary.demo,com.daemonLibrary.demo:service" />
+        android:targetProcesses="com.daemonLibrary.demo,com.daemonLibrary.demo:service"
+        tools:targetApi="o" />
     <application>
-        <activity android:name="com.daemon.onepixel.OnePixelActivity"></activity>
+        <activity android:name="com.daemon.onepixel.OnePixelActivity" />
 
         <service
             android:name="com.daemon.DaemonService"
@@ -231,14 +232,15 @@
             android:name="com.daemon.IntentJobService"
             android:enabled="true"
             android:exported="true"
-            android:permission="android.permission.BIND_JOB_SERVICE"></service>
+            android:permission="android.permission.BIND_JOB_SERVICE" />
         <service
             android:name="com.daemon.DaemonJobService"
             android:enabled="true"
             android:exported="true"
-            android:permission="android.permission.BIND_JOB_SERVICE"></service>
+            android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <receiver android:name="com.daemon.receiver.DaemonStaticReceiver">
+        <receiver android:name="com.daemon.receiver.DaemonStaticReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.REBOOT" />

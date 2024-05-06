@@ -13,7 +13,6 @@ import android.os.Bundle;
 
 import com.daemon.utils.IntentUtils;
 
-@TargetApi(21)
 public class IntentJobService extends JobService {
 
     /* renamed from: a  reason: collision with root package name */
